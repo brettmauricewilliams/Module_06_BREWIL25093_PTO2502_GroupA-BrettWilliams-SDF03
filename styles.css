@@ -17,6 +17,37 @@ body {
     color: #262626;
     padding-bottom: 3rem;
 }
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.profile-user-settings {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.profile-stats ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.profile-bio {
+    text-align: center;
+    max-width: 300px;
+    margin-left: auto;
+}
 
 .container {
     width: 90%;
