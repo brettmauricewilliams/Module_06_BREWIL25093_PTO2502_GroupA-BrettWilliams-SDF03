@@ -33,6 +33,10 @@ body {
  size-adjust: 200x200px;
  border-radius: 50% ;
 }
+.profile-user-name {
+    font-size: 30px;
+    color: lightgrey;
+}
 
 .profile-user-settings {
     display: flex;
