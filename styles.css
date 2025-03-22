@@ -37,11 +37,12 @@ body {
 .profile-user-settings {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .profile-stats {
     display: flex;
+    align-items: center;
     justify-content: flex-end;
     width: 100%;
 }
