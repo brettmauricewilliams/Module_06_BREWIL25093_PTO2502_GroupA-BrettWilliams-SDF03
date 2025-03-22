@@ -24,6 +24,11 @@ body {
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
+.profile-image{
+  border-radius: 50%; /* Makes the image circular */
+  border: 5px solid #000; /* Optional: adds a border around the image */
+  border-color: teal;
+}
 
 .profile-user-settings {
     display: flex;
