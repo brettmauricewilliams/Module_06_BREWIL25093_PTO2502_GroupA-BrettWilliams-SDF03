@@ -29,6 +29,10 @@ body {
   border: 5px solid #000; /* Optional: adds a border around the image */
   border-color: teal;
 }
+.profile-image img{
+ size-adjust: 200x200px;
+ border-radius: 50% ;
+}
 
 .profile-user-settings {
     display: flex;
