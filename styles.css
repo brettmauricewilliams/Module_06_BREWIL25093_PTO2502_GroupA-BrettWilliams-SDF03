@@ -25,6 +25,7 @@ body {
     flex-direction: inherit;
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-bottom: 20px;
 }
 
 .profile-image {
