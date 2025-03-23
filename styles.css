@@ -33,8 +33,8 @@ body {
 }
 
 .profile-image img {
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
     border: 7px solid #000; /* Optional: adds a border around the image */
     border-color: teal;
@@ -67,6 +67,12 @@ body {
     margin-left: 235px
 }
 
+.profile-stats{
+    list-style: none;
+    justify-content: space-between;
+    width: 60%;
+}
+
 .profile-stats ul {
     list-style: none;
     display: flex;
@@ -78,12 +84,35 @@ body {
 .profile-stats li {
     font-weight: bold;
 }
+/*Profile Responsive Design */
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .profile-image {
+        margin: 0 0 10px 0;
+    }
+    
+    .profile-user-settings {
+        flex-direction: column;
+    }
+    
+    .profile-stats ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .container {
     width: 90%;
     max-width: 1000px;
     margin: auto;
 }
 
+/*Gallery Section*/
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -153,7 +182,7 @@ body {
 .gallery-item-info i {
     margin-right: 5px;
 }
-
+/*Responsive media added to Gallery*/
 @media (max-width: 768px) {
     .gallery-item {
         width: calc(50% - 10px);
@@ -165,6 +194,7 @@ body {
         width: 100%;
     }
 }
+
 /* Loader style and animation is added */
 .loader {
   margin: auto;
